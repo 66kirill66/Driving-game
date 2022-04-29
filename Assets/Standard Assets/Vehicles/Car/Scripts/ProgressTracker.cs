@@ -6,6 +6,7 @@ public class ProgressTracker : MonoBehaviour
 {
     private AudioSource Player;
     private bool isPlaying = false;
+    public int CurrentWP = 0;
 
     void Start()
     {
