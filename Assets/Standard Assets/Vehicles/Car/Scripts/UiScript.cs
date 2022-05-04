@@ -27,6 +27,8 @@ public class UiScript : MonoBehaviour
     public GameObject CheckPointDisplay;
     //Record Lap
     public GameObject NewLapRecord;
+    //Wrong Way
+    public GameObject WrongWayText;
 
     
 
@@ -34,6 +36,7 @@ public class UiScript : MonoBehaviour
     private float DisplaySpeed;
     void Start()
     {
+        WrongWayText.SetActive(false);
         SpeedRing.fillAmount = 0;
         SpeedText.text = "0";
         LapNumberText.text = "0";
@@ -190,6 +193,17 @@ public class UiScript : MonoBehaviour
                 StartCoroutine(CheckPointOff());
             }
         }
+
+        // Wrong Way Message
+        if(SaveScript.WrongWay == true)
+        {
+            WrongWayText.SetActive(true);
+        }
+        if (SaveScript.WrongWay == false)
+        {
+            WrongWayText.SetActive(false);
+        }
+
 
     }
     IEnumerator CheckPointOff()

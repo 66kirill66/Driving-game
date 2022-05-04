@@ -287,6 +287,7 @@ namespace UnityStandardAssets.Vehicles.Car
                 {
                     if (wheelHit.collider.CompareTag("Road"))
                     {
+                        Debug.Log("Road");
                         SaveScript.OnTheRoad = true;
                         SaveScript.OnTheTerrain = false;
                     }
@@ -295,11 +296,13 @@ namespace UnityStandardAssets.Vehicles.Car
                 {
                     if (wheelHit.collider.CompareTag("Terrain"))
                     {
+                        Debug.Log("Terrain");
                         SaveScript.OnTheRoad = false;
                         SaveScript.OnTheTerrain = true;
                     }
                 }
-
+                
+              
                 // is the tire slipping above the given threshhold
                 if (Mathf.Abs(wheelHit.forwardSlip) >= m_SlipLimit || Mathf.Abs(wheelHit.sidewaysSlip) >= m_SlipLimit)
                 {

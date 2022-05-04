@@ -244,6 +244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 47
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2838348
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -400,27 +402,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
---- !u!1 &15188756 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 741422514, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
-  m_PrefabInstance: {fileID: 274139120222447644}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &15188758
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15188756}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!4 &17202521 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
@@ -835,6 +816,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 76
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &31830323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -895,6 +878,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 81
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &35025547
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -955,6 +940,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 110
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &36295123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1033,6 +1020,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 8
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &51090772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1365,6 +1354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 149
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &65879373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1563,6 +1554,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 166
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &67788672
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1852,6 +1845,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 95
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &81799589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2119,6 +2114,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 44
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &91809211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2258,6 +2255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 122
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &100388865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2562,6 +2561,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 132
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &103875668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2627,6 +2628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 124
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &106853718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2692,6 +2695,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 107
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &112384170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2752,6 +2757,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 24
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &112495156
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3024,6 +3031,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 89
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &123948225
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3439,6 +3448,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 16
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &139825221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3499,6 +3510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 74
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &143356785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3675,6 +3688,86 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
   m_PrefabInstance: {fileID: 725498736}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &172087109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 172087110}
+  - component: {fileID: 172087112}
+  - component: {fileID: 172087111}
+  m_Layer: 5
+  m_Name: Wrong Way
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &172087110
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172087109}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.06267433, y: 0.06267433, z: 0.06267433}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1475197881}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1278, y: 806}
+  m_SizeDelta: {x: 2539.498, y: 277.959}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &172087111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172087109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9811321, g: 0.93617094, b: 0.9311499, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e722a38b10b6e7345815ba6ba2a69cfb, type: 3}
+    m_FontSize: 200
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: WRONG WAY!
+--- !u!222 &172087112
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172087109}
+  m_CullTransparentMesh: 1
 --- !u!4 &173659032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
@@ -3727,6 +3820,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 123
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &176076468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3914,6 +4009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 63
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &198072285
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4054,6 +4151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 11
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &204416060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4194,6 +4293,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 101
   CarTracking: 0
+  PenaltyOption: 1
+  PenaltyWayPoint: 92
 --- !u!65 &216024099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4472,6 +4573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 70
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &221733123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4532,6 +4635,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 159
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &222506620
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4550,18 +4655,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
   m_PrefabInstance: {fileID: 474667167}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &223772620 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3902904337941717074, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-  m_PrefabInstance: {fileID: 1633107474}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &223772624
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223772620}
+  m_GameObject: {fileID: 3902904339530767936}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -4768,6 +4868,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 146
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &238037578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4976,6 +5078,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 130
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &244193268
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5036,6 +5140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 117
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &244216813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5244,6 +5350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 147
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &252652686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5304,6 +5412,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 156
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &252738800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5584,6 +5694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 10
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &257314228 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
@@ -5646,6 +5758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 25
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &267968075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5838,6 +5952,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 150
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &292690327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5898,6 +6014,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 105
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &296555277
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6130,6 +6248,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 55
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &318215810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6190,6 +6310,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 48
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &322180406
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6465,6 +6587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 18
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &352454248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6530,6 +6654,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 84
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &362053973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6659,6 +6785,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 20
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &376191247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6788,6 +6916,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 12
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &377925807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6934,6 +7064,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 73
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &388836799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7395,6 +7527,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 96
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &423520031
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7460,6 +7594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 91
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &428275134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7899,6 +8035,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 82
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &444638654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8028,6 +8166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 127
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &450027465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8088,6 +8228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 155
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &456436627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8299,6 +8441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 2
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &462146569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8484,6 +8628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 151
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &465224345
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8820,6 +8966,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 92
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &481190584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8831,8 +8979,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.99999875, y: 1, z: 0.5428136}
+  m_Center: {x: 0.000053271993, y: 0, z: 0.2285935}
 --- !u!1 &483292251
 GameObject:
   m_ObjectHideFlags: 0
@@ -8880,6 +9028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 60
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &483292254
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9009,6 +9159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 116
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &493992137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9212,6 +9364,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 161
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &502430587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9711,6 +9865,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 34
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &518325748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10052,6 +10208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 28
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &549789721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10112,6 +10270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 158
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &550715659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10172,6 +10332,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 99
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &553105050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10183,8 +10345,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.646694}
+  m_Center: {x: 0.000000041279428, y: 0, z: 0.17665337}
 --- !u!4 &554106620 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
@@ -10416,6 +10578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 154
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &567636738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10667,6 +10831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 68
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &589704799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10960,6 +11126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 29
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &619441356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11020,6 +11188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 57
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &619634834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11085,6 +11255,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 162
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &622920589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11145,6 +11317,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 152
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &627869059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11461,18 +11635,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
---- !u!1 &631264048 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8999488003574457903, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-  m_PrefabInstance: {fileID: 1633107474}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &631264052
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631264048}
+  m_GameObject: {fileID: 8999488001942149181}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -12287,6 +12456,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 139
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &675696267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12492,6 +12663,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 42
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &681925087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12631,6 +12804,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 153
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &689402718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12691,6 +12866,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 41
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &694945546
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12963,6 +13140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 39
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &701529581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13171,6 +13350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 19
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &717962809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13241,6 +13422,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 108
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &723223797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13375,6 +13558,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 58
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &727725343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13440,6 +13625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 38
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &733588152
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13510,6 +13697,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 125
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &742593280
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13890,6 +14079,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 157
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &779405268
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14175,6 +14366,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 7
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &801625524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
@@ -14301,6 +14494,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 136
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &802372981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14573,6 +14768,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 133
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &817862556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14633,6 +14830,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 121
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &823910729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15315,6 +15514,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 13
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &846590243
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15550,6 +15751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 80
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &867827084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15748,6 +15951,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 165
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &873566036
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15813,6 +16018,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 98
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &883500172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15824,8 +16031,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.68003744}
+  m_Center: {x: 0.00000015853556, y: 0, z: 0.15998167}
 --- !u!1 &883673258
 GameObject:
   m_ObjectHideFlags: 0
@@ -15873,6 +16080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 21
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &883673261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16371,6 +16580,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 135
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &905643025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16513,6 +16724,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 3
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!4 &918562104 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
@@ -16565,6 +16778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 45
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &920056799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16704,6 +16919,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 141
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &922472416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16717,18 +16934,13 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &922932640 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -5217788596335103707, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-  m_PrefabInstance: {fileID: 1633107474}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &922932644
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922932640}
+  m_GameObject: {fileID: 4005583441068003127}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -16783,6 +16995,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 143
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &927469477
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17073,6 +17287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 54
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &940939755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17143,6 +17359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 142
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &941975841
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17216,6 +17434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 1
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &945993987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17485,6 +17705,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 97
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &979806075
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17496,8 +17718,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.87604004}
+  m_Center: {x: 0.00000004295876, y: 0, z: 0.06198029}
 --- !u!4 &980325374 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
@@ -17707,6 +17929,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 62
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &984520942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17925,6 +18149,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 119
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &992875482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18059,6 +18285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 72
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &997024347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18262,6 +18490,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 138
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1001963274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18391,6 +18621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 114
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1005426564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18451,6 +18683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 75
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1006358777
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19218,6 +19452,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 144
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1096091770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19479,6 +19715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 129
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1111575273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19539,6 +19777,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 83
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1111771670
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19609,6 +19849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 148
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1122826293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20277,6 +20519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 120
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1142619870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20337,6 +20581,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 85
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1142653612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20916,6 +21162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 87
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1177695920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21050,6 +21298,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 113
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1182900792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21115,6 +21365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 64
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1190561999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21788,6 +22040,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 52
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1229236068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21922,6 +22176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 109
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1240619949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22056,6 +22312,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 106
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1255751411
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22470,6 +22728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 56
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1265444072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22599,6 +22859,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 134
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1271252276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22807,6 +23069,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 128
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1281150326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22979,6 +23243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 78
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1283454867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23177,6 +23443,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 160
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1289597708
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24389,6 +24657,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 36
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1383787734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24775,6 +25045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 79
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1397570882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24835,6 +25107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 137
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1398082189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25176,6 +25450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 65
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1412434139
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25374,6 +25650,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 111
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1429144942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25810,6 +26088,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 115
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1451925527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25870,6 +26150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 112
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1453757870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26228,6 +26510,7 @@ Transform:
   - {fileID: 1449066959}
   - {fileID: 406865216}
   - {fileID: 2027679930}
+  - {fileID: 172087110}
   m_Father: {fileID: 1514263545}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -26345,6 +26628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 31
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1483802787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26474,6 +26759,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 86
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1493185422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26735,6 +27022,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 33
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1512182214
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26909,18 +27198,14 @@ MonoBehaviour:
   CheckPointTime: {fileID: 202060209}
   CheckPointDisplay: {fileID: 202060207}
   NewLapRecord: {fileID: 2027679927}
---- !u!1 &1516255829 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -2203580965445231138, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-  m_PrefabInstance: {fileID: 1633107474}
-  m_PrefabAsset: {fileID: 0}
+  WrongWayText: {fileID: 172087109}
 --- !u!64 &1516255833
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1516255829}
+  m_GameObject: {fileID: 7019791069810533324}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -27195,6 +27480,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 5
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1537154196
 GameObject:
   m_ObjectHideFlags: 0
@@ -27242,6 +27529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 100
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1537154199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27253,8 +27542,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.56639683}
+  m_Center: {x: 0.0000009993499, y: 0, z: 0.10324373}
 --- !u!1001 &1541335479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27878,6 +28167,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 67
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1583510253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28007,6 +28298,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 71
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1584687526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28146,6 +28439,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 164
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1590814205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28487,6 +28782,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 140
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1602518984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28552,6 +28849,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 32
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1606115875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28612,6 +28911,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 43
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1609806684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28884,6 +29185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 118
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1618063222
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28976,199 +29279,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
   m_PrefabInstance: {fileID: 1831135748}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1633107474
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -5217788596335103707, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_TagString
-      value: Barrier
-      objectReference: {fileID: 0}
-    - target: {fileID: -5216152466825396968, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 123.63
-      objectReference: {fileID: 0}
-    - target: {fileID: -5216152466825396968, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.16136
-      objectReference: {fileID: 0}
-    - target: {fileID: -5216152466825396968, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -26.387
-      objectReference: {fileID: 0}
-    - target: {fileID: -4526876737984249473, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5fb51d29ae5e58343a38b6f678513256, type: 2}
-    - target: {fileID: -4470455406946765199, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3809945072200597350, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -3809945072200597350, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a18c3d0e2504cf24aa4a0a7bbb4ce6e4, type: 2}
-    - target: {fileID: -3809945072200597350, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: f3452c8c4e2f955408d6df43d8413409, type: 2}
-    - target: {fileID: -2203580965445231138, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_TagString
-      value: Rumblestrip
-      objectReference: {fileID: 0}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[2]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[3]
-      value: 
-      objectReference: {fileID: 2100000, guid: ada2f58b8d6f6de4caf6c3c349c9631d, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[4]
-      value: 
-      objectReference: {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[5]
-      value: 
-      objectReference: {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[6]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[7]
-      value: 
-      objectReference: {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[8]
-      value: 
-      objectReference: {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[9]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[10]
-      value: 
-      objectReference: {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
-    - target: {fileID: -1448420291031046420, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[11]
-      value: 
-      objectReference: {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
-    - target: {fileID: -346480380619810836, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -346480380619810836, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 225c355e57889d54a9ecd469e1599752, type: 2}
-    - target: {fileID: -346480380619810836, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: d67a4481f7b452d4a91537b6f080327e, type: 2}
-    - target: {fileID: 881207170713776044, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 881207170713776044, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 225c355e57889d54a9ecd469e1599752, type: 2}
-    - target: {fileID: 881207170713776044, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: d67a4481f7b452d4a91537b6f080327e, type: 2}
-    - target: {fileID: 919132149155446097, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Name
-      value: Interlagos
-      objectReference: {fileID: 0}
-    - target: {fileID: 1378922297957006227, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_TagString
-      value: Road
-      objectReference: {fileID: 0}
-    - target: {fileID: 2367705109410454717, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 3902904337941717074, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_TagString
-      value: Barrier
-      objectReference: {fileID: 0}
-    - target: {fileID: 4517133675158560266, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d8e5bcbe1d72267458cbc7c9c864b2c1, type: 2}
-    - target: {fileID: 7207653703646435068, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-      propertyPath: m_TagString
-      value: Barrier
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
 --- !u!1 &1636643735
 GameObject:
   m_ObjectHideFlags: 0
@@ -29269,6 +29379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 37
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1646576893
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29849,6 +29961,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 145
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1683837353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29909,6 +30023,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 126
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1688036085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30107,6 +30223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 59
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1699188898
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30394,6 +30512,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 90
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1714368595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30454,6 +30574,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 104
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1717975516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30677,6 +30799,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 51
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1731101787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30750,6 +30874,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 4
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1001 &1740753652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31093,6 +31219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 66
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1751856970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31227,6 +31355,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 88
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1756839216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31598,6 +31728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 131
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1795668976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31744,6 +31876,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 53
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1806499072
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31817,6 +31951,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 9
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1809709478
 GameObject:
   m_ObjectHideFlags: 0
@@ -31947,6 +32083,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 40
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1811636922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32603,6 +32741,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 61
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1854677425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32663,6 +32803,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 30
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1854756053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33384,6 +33526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 27
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1889601705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33832,18 +33976,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
---- !u!1 &1929791615 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7207653703646435068, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-  m_PrefabInstance: {fileID: 1633107474}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1929791619
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929791615}
+  m_GameObject: {fileID: 7207653705234573550}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -34123,6 +34262,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 163
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1938185011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34183,6 +34324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 69
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1938423258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34325,6 +34468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 6
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!1 &1944095628
 GameObject:
   m_ObjectHideFlags: 0
@@ -34372,6 +34517,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 50
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1944095631
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34437,6 +34584,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 26
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1947138471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34826,6 +34975,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 102
   CarTracking: 0
+  PenaltyOption: 1
+  PenaltyWayPoint: 92
 --- !u!65 &1974222047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34886,6 +35037,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 103
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1979822677
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34951,6 +35104,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 93
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &1984101865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34962,8 +35117,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.49688733}
+  m_Center: {x: -0.0005216261, y: 0, z: 0.10053922}
 --- !u!1001 &1987716654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35154,6 +35309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 46
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2011170862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35326,7 +35483,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2084941105}
+  m_Father: {fileID: 543450652109068793}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2021213193
@@ -35595,6 +35752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 35
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2028991582
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35655,6 +35814,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 94
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2031147230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35747,18 +35908,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
   m_PrefabInstance: {fileID: 1455445106}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2036012664 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1378922297957006227, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-  m_PrefabInstance: {fileID: 1633107474}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &2036012668
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036012664}
+  m_GameObject: {fileID: 1378922298513327489}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -36142,6 +36298,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 15
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2073834995
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36212,11 +36370,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040137310881316, guid: 6f1c4a61df85dcd47821dc9497adb1e6, type: 3}
   m_PrefabInstance: {fileID: 696989186}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2084941105 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
-  m_PrefabInstance: {fileID: 1633107474}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2087009677
 PrefabInstance:
@@ -36620,6 +36773,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 77
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2102152872
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36685,6 +36840,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 22
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2103989204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36770,6 +36927,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 14
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2116560331
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36899,6 +37058,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 23
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2124957308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37033,6 +37194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 17
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2131124986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37162,6 +37325,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WPNumber: 49
   CarTracking: 0
+  PenaltyOption: 0
+  PenaltyWayPoint: 0
 --- !u!65 &2133318172
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37537,34 +37702,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 741422514, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
-      propertyPath: m_TagString
-      value: Progress
-      objectReference: {fileID: 0}
-    - target: {fileID: 741422516, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
-      propertyPath: m_Size.x
-      value: 0.98580825
-      objectReference: {fileID: 0}
-    - target: {fileID: 741422516, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
-      propertyPath: m_Size.y
-      value: 2.6820455
-      objectReference: {fileID: 0}
-    - target: {fileID: 741422516, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
-      propertyPath: m_Size.z
-      value: 1.0392087
-      objectReference: {fileID: 0}
-    - target: {fileID: 741422516, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
-      propertyPath: m_Center.x
-      value: -0.010415319
-      objectReference: {fileID: 0}
-    - target: {fileID: 741422516, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
-      propertyPath: m_Center.y
-      value: 0.3809518
-      objectReference: {fileID: 0}
-    - target: {fileID: 741422516, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
-      propertyPath: m_Center.z
-      value: 0.018497664
-      objectReference: {fileID: 0}
     - target: {fileID: 274139119117556694, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -37615,6 +37752,371 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e1aa7bd73f7d6c4bb8d5926c07e651d, type: 3}
+--- !u!4 &543450652109068793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147566641987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4007219569512874762}
+  - {fileID: 4752916630464464995}
+  - {fileID: 2367705111001473711}
+  - {fileID: 8400434250208439566}
+  - {fileID: 2719837580505421294}
+  - {fileID: 8526576106205243037}
+  - {fileID: 2021213192}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &881207171230781886
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005583441068003127}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 225c355e57889d54a9ecd469e1599752, type: 2}
+  - {fileID: 2100000, guid: d67a4481f7b452d4a91537b6f080327e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &919132147566641987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543450652109068793}
+  m_Layer: 0
+  m_Name: Interlagos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1378922298513327489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4752916630464464995}
+  - component: {fileID: 7884587756055642354}
+  - component: {fileID: 5413426966251241096}
+  - component: {fileID: 2036012668}
+  m_Layer: 0
+  m_Name: Road
+  m_TagString: Road
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &1471688610691900486
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7207653705234573550}
+  m_Mesh: {fileID: -743902948876782920, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
+--- !u!4 &2367705111001473711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019791069810533324}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -19.174543, y: -0.01, z: -26.38673}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652109068793}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2372710640570083204
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005583441068003127}
+  m_Mesh: {fileID: 4038894408023432642, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
+--- !u!33 &2461600552875957467
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3902904339530767936}
+  m_Mesh: {fileID: 235171892384882526, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
+--- !u!4 &2719837580505421294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7207653705234573550}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 78.225204, y: 0, z: -28.447096}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652109068793}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3902904339530767936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4007219569512874762}
+  - component: {fileID: 2461600552875957467}
+  - component: {fileID: 4517133676782346264}
+  - component: {fileID: 223772624}
+  m_Layer: 0
+  m_Name: HardBarrier
+  m_TagString: Barrier
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4005583441068003127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8400434250208439566}
+  - component: {fileID: 2372710640570083204}
+  - component: {fileID: 881207171230781886}
+  - component: {fileID: 922932644}
+  m_Layer: 0
+  m_Name: SoftBarrierInside
+  m_TagString: Barrier
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4007219569512874762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3902904339530767936}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -19.174543, y: -0.16136, z: -26.387}
+  m_LocalScale: {x: 100, y: 100, z: 123.63}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652109068793}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4041317775680328827
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999488001942149181}
+  m_Mesh: {fileID: 2822618798309135990, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
+--- !u!33 &4473994124563757537
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019791069810533324}
+  m_Mesh: {fileID: -4605665944650061989, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
+--- !u!23 &4517133676782346264
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3902904339530767936}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d8e5bcbe1d72267458cbc7c9c864b2c1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!23 &4696495298345664365
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7019791069810533324}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5fb51d29ae5e58343a38b6f678513256, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &4752916630464464995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378922298513327489}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -19.524733, y: 0, z: -26.495293}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652109068793}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &5413426966251241096
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378922298513327489}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a18c3d0e2504cf24aa4a0a7bbb4ce6e4, type: 2}
+  - {fileID: 2100000, guid: f3452c8c4e2f955408d6df43d8413409, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &6555054680950725917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37672,3 +38174,194 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3a751570fb81364081e4b33fede1102, type: 3}
+--- !u!1 &7019791069810533324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2367705111001473711}
+  - component: {fileID: 4473994124563757537}
+  - component: {fileID: 4696495298345664365}
+  - component: {fileID: 1516255833}
+  m_Layer: 0
+  m_Name: Rumblestrip
+  m_TagString: Rumblestrip
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7207653705234573550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2719837580505421294}
+  - component: {fileID: 1471688610691900486}
+  - component: {fileID: 8876891654612888062}
+  - component: {fileID: 1929791619}
+  m_Layer: 0
+  m_Name: SoftBarrierOutside
+  m_TagString: Barrier
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &7774951745275779326
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999488001942149181}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
+  - {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
+  - {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
+  - {fileID: 2100000, guid: ada2f58b8d6f6de4caf6c3c349c9631d, type: 2}
+  - {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
+  - {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
+  - {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
+  - {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
+  - {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
+  - {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
+  - {fileID: 2100000, guid: 29e0da5dc211dae46bd87960196eeea5, type: 2}
+  - {fileID: 2100000, guid: 4eff74ad6cda3f54181d18aef30d271a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &7884587756055642354
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378922298513327489}
+  m_Mesh: {fileID: -8634060567236447461, guid: decc9fd125899fe41a1875ea26e50ecb, type: 3}
+--- !u!4 &8400434250208439566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005583441068003127}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 43.08366, y: 0, z: -104.63377}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652109068793}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &8526576106205243037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8999488001942149181}
+  m_LocalRotation: {x: -0.5460765, y: 0.44922215, z: 0.44922233, w: 0.54607624}
+  m_LocalPosition: {x: 180.45316, y: 29.177547, z: -114.95794}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652109068793}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &8876891654612888062
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7207653705234573550}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 225c355e57889d54a9ecd469e1599752, type: 2}
+  - {fileID: 2100000, guid: d67a4481f7b452d4a91537b6f080327e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8999488001942149181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8526576106205243037}
+  - component: {fileID: 4041317775680328827}
+  - component: {fileID: 7774951745275779326}
+  - component: {fileID: 631264052}
+  m_Layer: 0
+  m_Name: StadiumSeating
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
